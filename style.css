@@ -1,0 +1,105 @@
+body{
+  background-color: #223127;
+  color: #424B54;
+  font-size:16px;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  text-align: center;
+  background-image: url("images/tree.jpg");
+
+}
+img{
+  width: 400px;
+  border-radius: 100px
+}
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.box_profile, .box_about, .box_cities{
+  background: #FFE8D4;
+  padding: 30px;
+  margin: 100px 200px;                             /* Internal space */
+  border-radius: 20px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+}
+
+.box_about{
+  padding: 30px;
+}
+}
+div{
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #E1CE7A;
+  text-align: left;
+  background: white;                          /* White background */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+}
+
+li{
+  text-align: left;
+}
+.cities{
+  padding:0px;
+  margin-right: 30px;
+  border-radius: 0;
+  opacity: 1;
+}
+.
+p{
+  color: #17BEBB;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+  color: black;
+}
+h2{
+  font-family: 'Raleway', sans-serif;
+
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+td{
+  padding:100px 50px;
+
+}
+a {
+  color: pink;
+  text-decoration: underline;
+  font-size: 3
+}
+
+a:hover {
+  color: #EF3E36;
+  text-decoration: underline;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+

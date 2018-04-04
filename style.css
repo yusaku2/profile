@@ -1,3 +1,8 @@
+.banner {
+  background-image: url("images/tokyo2.jpg");
+  background-size:cover;
+}
+
 body{
   background-color: #223127;
   color: #424B54;
